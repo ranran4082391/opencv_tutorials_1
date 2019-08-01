@@ -27,7 +27,7 @@ cv2.destroyAllWindows()
 Check the result below:
 ![](https://github.com/ranran4082391/opencv_tutorials_1/blob/master/t4/example.jpg)
 ![](https://github.com/ranran4082391/opencv_tutorials_1/blob/master/t4/example2.jpg)
-![](https://github.com/ranran4082391/opencv_tutorials_1/blob/master/t4/f1.png)
+![](https://github.com/ranran4082391/opencv_tutorials_1/blob/master/t4/blend.png)
 
 # Complete code
 ```python
