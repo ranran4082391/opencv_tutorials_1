@@ -49,7 +49,7 @@ cv2.imwrite('example.png',img)
 ## Using Matplotlib
 'Matplotlib' is a plotting library for Python which gives you wide variety of plotting methods. You will see them in coming articles. Here, you will learn how to display image with Matplotlib. You can zoom images, save it etc using Matplotlib.
 
-* if you use pip  ------> pip install matplotlib
+            if you use pip  ------> pip install matplotlib
 ```python
 import cv2
 from matplotlib import pyplot as plt
