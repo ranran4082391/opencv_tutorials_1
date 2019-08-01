@@ -63,9 +63,9 @@ plt.show()
 ### imread(arg1, arg2) introduce agr2
 
 Instead of these three flags, you can simply pass integers 1, 0 or -1 respectively. 
-1. COLOR (1)
-2. GRAYSCALE (0)
-3. UNCHANGED (-1)
+    * COLOR (1)
+    * GRAYSCALE (0)
+    * UNCHANGED (-1)
 
 
 
