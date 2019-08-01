@@ -10,11 +10,11 @@ print( cv2.add(x,y) ) # 250+10 = 260 => 255
 ```
 # Image Blending
     This is also image addition, but different weights are given to images so that it gives a feeling of blending or transparency. Images are added as per the equation below
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> g(x)=(1-\alpha )f_0(x)+\alpha f_1(x)</script>
+![f1]()
 
     By varying α from 0→1, you can perform a cool transition between one image to another.Here I took two images to blend them together. First image is given a weight of 0.7 and second image is given 0.3. cv2.addWeighted() applies following equation on the image.
   
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> g(x)=(1-\alpha ) dst=\alpha \cdot img1+\beta \cdot img2+\gamma </script>
+![f2]()
 
 ```python
 img1 = cv2.imread('ml.png')
