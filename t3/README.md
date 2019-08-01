@@ -57,5 +57,5 @@ plt.subplot(236),plt.imshow(constant,'gray'),plt.title('CONSTANT')
 plt.show()
 ```
 # Result
-![]()
+![](https://github.com/ranran4082391/opencv_tutorials_1/blob/master/t3/myplot.png)
         
