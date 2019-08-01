@@ -4,7 +4,7 @@
 * 3. Setting Region of Interest (ROI)
 * 4. Splitting and Merging images
 # A priori knowledge
-Almost all the operations in this section is mainly related to `Numpy` rather than OpenCV. A good knowledge of Numpy is required to write better **ptimized code with OpenCV.
+Almost all the operations in this section is mainly related to `Numpy` rather than OpenCV. A good knowledge of Numpy is required to write better **ptimized code with OpenCV.**
 # Accessing and Modifying pixel values
 * Load Image
 ```python
