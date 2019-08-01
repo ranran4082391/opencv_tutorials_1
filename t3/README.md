@@ -1,8 +1,27 @@
 # Goal
-* Learn to draw different geometric shapes with OpenCV
-* You will learn these functions : cv2.line(), cv2.circle() , cv2.rectangle(), cv2.ellipse(), cv2.putText() etc.
-# Code
- * img: The image where you want to draw the shapes
- * color: Color of the shape. for BGR, pass it as a tuple, eg: (255,0,0) for blue. For grayscale, just pass the scalar value.
- * thickness: Thickness of the line or circle etc. If **-1** is passed for closed figures like circles, it will fill the shape. default thickness = 1
- * lineType: Type of line, whether 8-connected, anti-aliased line etc. By default, it is *** 8-connected ***. `cv2.LINE_AA` gives anti-aliased line which looks great for curves.
+* 1. Access pixel values and modify them
+* 2. Access image properties
+* 3. Setting Region of Interest (ROI)
+* 4. Splitting and Merging images
+# A priori knowledge
+Almost all the operations in this section is mainly related to `Numpy` rather than OpenCV. A good knowledge of Numpy is required to write better **ptimized code with OpenCV.
+# Accessing and Modifying pixel values
+* Load Image
+```python
+import cv2
+import numpy as np
+img = cv2.imread('example.jpg')
+```
+    You can access a pixel value by its row and column coordinates. For BGR image, it returns an array of Blue, Green, Red values. For grayscale image, just corresponding intensity is returned.
+```python
+px = img[100,100]
+print( px )
+# accessing only blue pixel
+blue = img[100,100,0]
+print( blue )
+```
+    You can modify the pixel values the same way
+```python
+img[100,100] = [255,255,255]
+print( img[100,100] )
+```
