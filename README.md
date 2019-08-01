@@ -1,5 +1,4 @@
-# opencv_tutorials_1
-Interpretation and Implementation of Opencv3
+#Interpretation and Implementation of Opencv3
 --------------------------------------------
 # GOALS
 * Here, you will learn how to read an `image`, how to `display` it and how to `save` it back
