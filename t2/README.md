@@ -26,4 +26,4 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 cv2.putText(img,'OpenCV',(10,500), font, 4,(255,255,255),2,cv2.LINE_AA)
  ```
  # Result
- ![](www.baidu.com)
+ ![](https://github.com/ranran4082391/opencv_tutorials_1/blob/master/t2/example.png)
