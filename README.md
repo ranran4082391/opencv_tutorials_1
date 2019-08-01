@@ -36,7 +36,7 @@ cv2.imshow('image',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)  
+![](https://github.com/ranran4082391/opencv_tutorials_1/blob/master/example.jpg)  
 
 `cv2.waitKey()` is a keyboard binding function. Its argument is the time in milliseconds. The function waits for specified milliseconds for any keyboard event. If you press any key in that time, the program continues. If 0 is passed, it waits indefinitely for a key stroke. It can also be set to detect specific key strokes like, if key a is pressed etc which we will discuss below.
 
@@ -47,6 +47,24 @@ First argument is the file name, second argument is the image you want to save.
 ```python
 cv2.imwrite('example.png',img)
 ```
+
+## Using Matplotlib
+'Matplotlib' is a plotting library for Python which gives you wide variety of plotting methods. You will see them in coming articles. Here, you will learn how to display image with Matplotlib. You can zoom images, save it etc using Matplotlib.
+
+* if you use pip  ------> pip install matplotlib
+```python
+import cv2
+from matplotlib import pyplot as plt
+img = cv2.imread('example.jpg',0)
+plt.imshow(img, cmap = 'gray', interpolation = 'bicubic')
+plt.xticks([]), plt.yticks([])  # to hide tick values on X and Y axis
+plt.show()
+```
+
+### imread(arg1, arg2) introduce agr2
+
+* Instead of these three flags, you can simply pass integers 1, 0 or -1 respectively. --.(COLOR, GRAYSCALE, UNCHANGED)
+
 
 
 
