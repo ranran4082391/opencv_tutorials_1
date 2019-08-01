@@ -1,5 +1,5 @@
 # Interpretation and Implementation of Opencv3
---------------------------------------------
+##############################################
 # GOALS
 * Here, you will learn how to read an `image`, how to `display` it and how to `save` it back
 * you will learn these functions : `cv2.imread(), cv2.imshow() , cv2.imwrite()`
@@ -62,7 +62,7 @@ plt.show()
 
 ### imread(arg1, arg2) introduce agr2
 
-Instead of these three flags, you can simply pass integers 1, 0 or -1 respectively. 
+      Instead of these three flags, you can simply pass integers 1, 0 or -1 respectively. 
     * COLOR (1)
     * GRAYSCALE (0)
     * UNCHANGED (-1)
