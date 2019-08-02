@@ -26,7 +26,7 @@ cv.imshow('img',dst)
 cv.waitKey(0)
 cv.destroyAllWindows()
 ```
-![]()
+![](https://github.com/ranran4082391/opencv_tutorials_1/blob/master/t6/warpAffine.png)
 ## Rotation
 ```python
 img = cv.imread('example.jpg',0)
@@ -35,6 +35,6 @@ rows,cols = img.shape
 M = cv.getRotationMatrix2D(((cols-1)/2.0,(rows-1)/2.0),90,1)
 dst = cv.warpAffine(img,M,(cols,rows))
 ```
-![]()
+![](https://github.com/ranran4082391/opencv_tutorials_1/blob/master/t6/Rotation.png)
 ## Affine Transformation
 ## Perspective Transformation
